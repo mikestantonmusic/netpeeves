@@ -1,0 +1,12 @@
+.link-label {
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    padding: 2px;
+    font-size: 10px;
+  }
+
+a[href^='https://www.youtube.com/watch']::after {
+    content: " video";
+    color: red;
+  }
